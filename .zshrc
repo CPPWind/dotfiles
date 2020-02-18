@@ -29,3 +29,7 @@ neofetch
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [[ -f /home/scottp/.asdf/installs/nodejs/12.3.1/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /home/scottp/.asdf/installs/nodejs/12.3.1/.npm/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true

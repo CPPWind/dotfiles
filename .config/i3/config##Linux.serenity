@@ -176,7 +176,7 @@ exec --no-startup-id xset -dpms
 exec --no-startup-id /home/scottp/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
 exec_always --no-startup-id ~/bin/polybar.sh --log=trace --reload &
 exec --no-startup-id feh --randomize --bg-fill ~/media/pictures/wallpaper/* --randomize --bg-fill ~/media/pictures/wallpaper/*
-exec --no-startup-id /usr/bin/xautolock -time 9 -locker "i3lock --color=002b36 -i /home/scottp/media/wallpaper/star_wars_empire_flag.png"
+exec --no-startup-id /usr/bin/xautolock -time 9 -locker "i3lock --color=002b36 -i /home/scottp/media/pictures/wallpaper/star_wars_empire_flag.png"
 
 ########################################
 #         Keyboad shortcuts            #

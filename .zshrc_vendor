@@ -22,3 +22,6 @@ eval "$(direnv hook zsh)"
 fpath=($fpath ~/.config/completion)
 
 [[ $- = *i* ]] && source ~/tools/liquidprompt/liquidprompt
+
+#keychain
+eval `keychain --quiet --eval --agents ssh --inherit any cpp_amazon.pem Anithri-20190730 CPP-ScottMParrish-20190730`

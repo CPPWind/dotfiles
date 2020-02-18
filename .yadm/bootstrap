@@ -12,9 +12,9 @@ sudo apt update
 
 sudo apt install libasound2-dev libcairo2-dev libcurl3 libcurl4-openssl-dev libiw-dev libjsoncpp-dev libmpdclient-dev libnl-genl-3-dev libpq-dev libpthread-stubs0-dev libpulse-dev libreadline-dev libssl-dev libxcb-composite0-dev libxcb-cursor-dev libxcb-ewmh-dev libxcb-ewmh2 libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb1 libxcb1-dev
 
-sudo apt install build-essential cmake cmake-data curl git openssh-client openssh-server pkg-config python python-pip python-sphinx python-xcbgen python3-sphinx xcb xcb-proto
+sudo apt install build-essential cmake cmake-data curl git openssh-client openssh-server pkg-config python python-pip python-sphinx python-xcbgen python3-sphinx xcb xcb-proto tee
 
-sudo apt install ack autojump colordiff cowsay direnv figlet hub i3 i3-wm i3lock jq keychain neofetch rofi tree vim wireless-tools xautolock yadm zsh
+sudo apt install ack autojump colordiff cowsay direnv figlet hub i3 i3-wm i3lock jq keychain neofetch rofi tree vim wireless-tools xautolock yadm zsh feh
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.6
 
